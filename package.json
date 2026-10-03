@@ -1,0 +1,24 @@
+{
+  "name": "masterplan-025-saved-view-composer",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node tools/serve.mjs",
+    "check": "node tools/check-site.mjs",
+    "build": "node tools/build.mjs",
+    "prestart": "npm run build"
+  },
+  "description": "An organizer wants named views of a reading queue without duplicating the underlying items.",
+  "dependencies": {
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.28.2"
+  }
+}
