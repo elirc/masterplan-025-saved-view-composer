@@ -129,3 +129,83 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Left for you:** exact fixture values, names, wording, the implementation and the tradeoff decision. Do not open the hints until you have an example and a first attempt.
 
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
+
+<!-- expanded-story-clinics -->
+
+## Additional planning checkpoints for stories 01–06
+
+[Nine more stories, 07–15](11-NINE-MORE-STORIES.md) · [Expanded workshop map](WORKBOOK-INDEX.md)
+
+Keep the original plans above. The following checkpoints add implementation and review depth without completing the exercise for you.
+
+### Story 01 planning clinic: Edit an existing view definition
+
+**Before editing:** restate the boundary in your own words: Add an explicit edit mode keyed by view ID, with draft fields separate from the active saved definition. Identify the part of `public/core.js` or `src/App.jsx` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “Cancel preserves the old filter; save updates that ID without creating a duplicate view.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test, plus the relevant real interaction or CLI observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
+
+### Story 02 planning clinic: Delete a saved view
+
+**Before editing:** restate the boundary in your own words: Choose a fallback active ID or an empty state when removing the current definition. Identify the part of `public/core.js` or `src/App.jsx` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “Deleting active, inactive and final views leaves no misleading stale result.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test, plus the relevant real interaction or CLI observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
+
+### Story 03 planning clinic: Add a sort rule to definitions
+
+**Before editing:** restate the boundary in your own words: Store a small allowlisted sort setting and derive sorted results from current items. Identify the part of `public/core.js` or `src/App.jsx` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “Later additions appear in the correct order and original items are not sorted in place.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test, plus the relevant real interaction or CLI observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
+
+### Story 04 planning clinic: Repair a removed category reference
+
+**Before editing:** restate the boundary in your own words: Offer an explicit action to choose a remaining category or all for the broken definition. Identify the part of `public/core.js` or `src/App.jsx` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “The view changes only after user action; the warning disappears and ID/name remain stable.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test, plus the relevant real interaction or CLI observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
+
+### Story 05 planning clinic: Show counts beside saved views
+
+**Before editing:** restate the boundary in your own words: Derive current counts per definition without caching copied result arrays in state. Identify the part of `public/core.js` or `src/App.jsx` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “Adding an item updates relevant counts, including duplicate-labeled views with different queries.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test, plus the relevant real interaction or CLI observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
+
+### Story 06 planning clinic: Persist definitions in a later branch
+
+**Before editing:** restate the boundary in your own words: Reuse the guarded adapter ideas from M019 for a versioned saved-view record, keeping source items as fixtures. Identify the part of `public/core.js` or `src/App.jsx` that owns it. If your proposed design changes another owner, explain the dependency instead of opening every file for a broad rewrite.
+
+**Acceptance matrix:** write ordinary, boundary and repeat/recovery rows that establish “Malformed saved definitions are preserved for recovery and unsupported categories remain explicit after reload.” Include exact starting data or content and the expected retained information. Calculate expected values or inspect meaningful source order independently of the proposed implementation.
+
+**First implementation slice:** make only enough of the change to demonstrate one acceptance row. Inspect the diff and predict the next row before running it. If your first slice is mostly setup or abstraction with no observable result, consider a smaller direct route.
+
+**Review challenge:** sketch a plausible wrong solution that would pass a casual demonstration. Choose a counterexample that exposes its specific weakness. Ask an assistant to critique that example rather than immediately asking it to finish the entire feature.
+
+**Evidence and explanation:** use npm test, plus the relevant real interaction or CLI observation. Record the actual observation and the limit of the check. Finish by naming a design decision you made yourself and explaining why the neighboring original behavior still holds.
