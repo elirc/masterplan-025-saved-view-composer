@@ -20,13 +20,13 @@ Make separate boxes for items, categories, views and activeId. A view contains a
 
 Find active by ID, then call composeView with current items and categories on every render. The visible list and count come from that result. No effect writes a second results array into state. This keeps a new matching item visible immediately after the item list changes.
 
-**Pause and produce evidence:** Two views both named JavaScript shelf. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Active JavaScript view, add a JavaScript item. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 3: Exercise duplicate names
 
 Create a second view with the same name as the first, inspect the different option IDs and rename only the active one. The filter fields remain unchanged. Tests check identity and object contents separately so a label-only success cannot hide an accidental category reset.
 
-**Pause and produce evidence:** Remove js category with js view active. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
+**Pause and produce evidence:** Two views both named JavaScript shelf. Predict the outcome, then compare it with the reference. In your notes, distinguish what the code says should happen from what you actually observed.
 
 ## Step 4: Handle a removed category
 

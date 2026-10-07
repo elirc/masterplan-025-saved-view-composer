@@ -6,8 +6,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 01: Edit an existing view definition
 
-**User need:** As a learner or user of Saved View Composer, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Add an explicit edit mode keyed by view ID, with draft fields separate from the active saved definition.
 
 **Implementation plan:**
@@ -26,8 +24,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 02: Delete a saved view
-
-**User need:** As a learner or user of Saved View Composer, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Choose a fallback active ID or an empty state when removing the current definition.
 
@@ -48,8 +44,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 03: Add a sort rule to definitions
 
-**User need:** As a learner or user of Saved View Composer, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Store a small allowlisted sort setting and derive sorted results from current items.
 
 **Implementation plan:**
@@ -68,8 +62,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 04: Repair a removed category reference
-
-**User need:** As a learner or user of Saved View Composer, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Offer an explicit action to choose a remaining category or all for the broken definition.
 
@@ -90,8 +82,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 
 ## Story 05: Show counts beside saved views
 
-**User need:** As a learner or user of Saved View Composer, I want this small improvement so the behavior is easier to use, explain or verify.
-
 **Feature boundary:** Derive current counts per definition without caching copied result arrays in state.
 
 **Implementation plan:**
@@ -110,8 +100,6 @@ These are new exercises beyond the finished reference. No story is marked comple
 **Stretch only after completion:** add one adversarial example that a plausible but incorrect solution would fail. Explain why that example is more informative than adding three ordinary examples.
 
 ## Story 06: Persist definitions in a later branch
-
-**User need:** As a learner or user of Saved View Composer, I want this small improvement so the behavior is easier to use, explain or verify.
 
 **Feature boundary:** Reuse the guarded adapter ideas from M019 for a versioned saved-view record, keeping source items as fixtures.
 

@@ -104,9 +104,9 @@ Look for a concrete connection to `public/core.js` or `src/App.jsx`. A strong an
 
 **First hint:** The desired improvement is “Copy a definition while creating a new identity.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Generate a new ID; copy filter fields; choose a new or duplicate label deliberately.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Generate a new ID; copy filter fields; choose a new or duplicate label deliberately. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Editing or renaming the copy does not alter the original definition.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Editing or renaming the copy does not alter the original definition. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose the default copied label. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -114,9 +114,9 @@ Look for a concrete connection to `public/core.js` or `src/App.jsx`. A strong an
 
 **First hint:** The desired improvement is “Distinguish valid empty results from a broken category.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Inspect composeView warning separately from item count; render different messages; keep the active definition visible.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Inspect composeView warning separately from item count; render different messages; keep the active definition visible. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: An unmatched query is not described as a removed category.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: An unmatched query is not described as a removed category. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose recovery suggestions for each state. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -124,9 +124,9 @@ Look for a concrete connection to `public/core.js` or `src/App.jsx`. A strong an
 
 **First hint:** The desired improvement is “Verify saved views respond to changed source data.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Update one item immutably by ID; keep view definitions untouched; recompute the active result.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Update one item immutably by ID; keep view definitions untouched; recompute the active result. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Renaming an item can add or remove it from a query result immediately.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Renaming an item can add or remove it from a query result immediately. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose the editing interaction. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -134,9 +134,9 @@ Look for a concrete connection to `public/core.js` or `src/App.jsx`. A strong an
 
 **First hint:** The desired improvement is “Explain each definition in ordinary language.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Derive query and category descriptions; include stable identity when labels collide; avoid storing another summary field.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Derive query and category descriptions; include stable identity when labels collide; avoid storing another summary field. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Renaming changes only the name while filter meaning remains the same.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Renaming changes only the name while filter meaning remains the same. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose empty-query wording. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -144,9 +144,9 @@ Look for a concrete connection to `public/core.js` or `src/App.jsx`. A strong an
 
 **First hint:** The desired improvement is “Show recovery of a previously broken definition.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Reintroduce the category without rewriting views; derive the active result again; retain item identities.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Reintroduce the category without rewriting views; derive the active result again; retain item identities. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: A restored category makes its original saved view usable again.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: A restored category makes its original saved view usable again. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose how restored categories are ordered. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -154,9 +154,9 @@ Look for a concrete connection to `public/core.js` or `src/App.jsx`. A strong an
 
 **First hint:** The desired improvement is “Share filter intent as data.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Serialize supported fields and a schema version; omit copied result items; document session-only source data limits.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Serialize supported fields and a schema version; omit copied result items; document session-only source data limits. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Export describes the question rather than freezing its current answer.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Export describes the question rather than freezing its current answer. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a compact versioned shape. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -164,9 +164,9 @@ Look for a concrete connection to `public/core.js` or `src/App.jsx`. A strong an
 
 **First hint:** The desired improvement is “Handle an absent active view ID explicitly.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Supply a missing-ID fixture; choose empty state or a known fallback; keep behavior in one owner.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Supply a missing-ID fixture; choose empty state or a known fallback; keep behavior in one owner. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: No stale definition remains displayed for an ID that no longer exists.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: No stale definition remains displayed for an ID that no longer exists. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose the fallback rule. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -174,9 +174,9 @@ Look for a concrete connection to `public/core.js` or `src/App.jsx`. A strong an
 
 **First hint:** The desired improvement is “Make label collisions easier to scan.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Count labels from views; derive a textual duplicate marker; keep IDs as actual keys.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Count labels from views; derive a textual duplicate marker; keep IDs as actual keys. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: Removing or renaming one duplicate updates markers without changing identities.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: Removing or renaming one duplicate updates markers without changing identities. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose whether comparison is case-sensitive. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
@@ -184,9 +184,9 @@ Look for a concrete connection to `public/core.js` or `src/App.jsx`. A strong an
 
 **First hint:** The desired improvement is “Teach two legitimate products with different contracts.” Start by identifying which existing boundary already knows the necessary information. Do not copy that information into new state until you can explain why derivation is insufficient.
 
-**Second hint:** Follow this source-specific route: Build a separate scratch snapshot object; add a matching item afterward; contrast frozen and recomputed results.. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
+**Second hint:** Follow this source-specific route: Build a separate scratch snapshot object; add a matching item afterward; contrast frozen and recomputed results. Keep each stage independently inspectable. If a step requires a policy choice, write the choice before implementing it.
 
-**Third hint:** Your strongest completion evidence should establish: The explanation names which product the reference implements and does not mix their promises.. Invent a plausible wrong implementation and make your example disagree with it.
+**Third hint:** Your strongest completion evidence should establish: The explanation names which product the reference implements and does not mix their promises. Invent a plausible wrong implementation and make your example disagree with it.
 
 **Decision still left to you:** Choose a scenario where a historical snapshot is useful. The guide intentionally does not settle this. Evaluate your answer by clarity of the contract, consistency of the implementation and quality of verification, not by guessing the author's preferred wording.
 
